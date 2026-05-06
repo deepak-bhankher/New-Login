@@ -79,7 +79,7 @@ export default function Login() {
         <LeftPanel />
 
         {/* RIGHT */}
-        <div className="flex-1 bg-[#0f1117] text-white p-4 sm:p-6 rounded-3xl shadow-xl w-full lg:max-w-md xl:max-w-lg overflow-y-auto flex items-center justify-center">
+        <div className="flex-1  bg-[#0f1117] text-white p-4 sm:p-6 rounded-3xl shadow-xl w-full lg:max-w-md xl:max-w-lg overflow-y-auto flex items-center justify-center">
           {view === "login"  && <LoginForm  setView={setView} />}
           {view === "signup" && <SignupForm setView={setView} />}
           {view === "forgot" && <ForgotForm setView={setView} />}

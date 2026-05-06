@@ -13,7 +13,7 @@ export default function SignupForm({ setView }) {
       setTimeout(() => setError(""), 1000);
       return;
     }
-    setSuccess("Account created successfully! Welcome.");
+    setSuccess("Account created successfully.");
     setTimeout(() => setSuccess(""), 3000);
   }
 
