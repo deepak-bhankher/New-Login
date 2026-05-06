@@ -123,7 +123,7 @@ export default function LeftPanel() {
   const size = 34;
 
   return (
-    <div className="flex-1 bg-white rounded-3xl p-5 shadow-sm hidden lg:flex flex-col justify-between">
+    <div className="flex-1 bg-white rounded-3xl p-4 sm:p-5 shadow-sm hidden lg:flex flex-col text-center lg:text-start justify-center gap-8">
       <style>{`
         @keyframes spinFwd { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
         @keyframes spinRev { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
